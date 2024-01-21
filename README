@@ -1,0 +1,58 @@
+# Credit Card Validator
+
+## Introduction
+
+This repository contains a simple C program that checks the validity of a credit card using the Luhn algorithm. The program prompts the user to input their credit card number, name, and card brand, and then determines whether the provided credit card information is valid or not.
+
+## Features
+
+- **Credit Card Validation**: Uses the Luhn algorithm to validate credit card numbers.
+- **User Interaction**: Provides a user-friendly interface for inputting credit card details.
+- **Brand Recognition**: Allows users to specify the brand of the credit card.
+
+## Getting Started
+
+Follow these steps to run the credit card validator:
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/your-username/credit-card-validator.git
+   cd credit-card-validator
+   ```
+
+2. **Compile and Run the Program**:
+
+   ```bash
+   gcc main.c -o credit_card_validator
+   ./credit_card_validator
+   ```
+
+3. **Follow the Prompts**:
+
+   - Enter the credit card number without spaces.
+   - Provide your name.
+   - Enter the brand of the credit card.
+
+4. **View Validation Result**:
+
+   The program will output whether the provided credit card information is valid or not.
+
+## Example
+
+```plaintext
+We will check if your credit card is valid or not
+Enter the credit card number, please do not include spaces:
+4111111111111111
+Enter your name:
+John Doe
+Enter the card brand:
+Visa
+Congratulations, John Doe, your card from the Visa agency is valid!
+```
+
+
+## Acknowledgments
+
+- The Luhn algorithm is widely used for credit card validation.
+- Inspiration for this project comes from the need for a simple credit card validator in C.
